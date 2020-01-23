@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration Page</title>
+	<link rel="stylesheet" type="text/css" href="css/csslogin.css">
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<script src="apps.js"></script>
+	<style>
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-10 offset=md-1">
+				<div class="row">
+					<div class="col-md-5 register-left">
+						<img src="image/doigt.png">
+						<h3>Join Us</h3>
+						<p>log in to House Rental</p>
+						<button type="button" class="btn btn-primary"><a href="/register">Vous n'avez pas encore un compte ? créer-le !!!</a> </button>
+					</div>
+					<div class="col-md-7 register-right">
+						<h2>Log in Here</h2>
+						<div class="register-form">
+							<form action="/login" method="post">
+								<div class="form-group">
+								<input type="text" name="username" class="form-control" placeholder="Username">
+								</div>
+								<div class="form-group">
+								<input type="Password" name ="password" class="form-control" placeholder="Password">
+								</div>
+								<input type="submit" class="btn btn-primary">LOG IN</input>
+								<h4 style="color: red;">password or username incorrect</h4>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- <a href="http://localhost:3000/liste">Liste des utilisateurs</a> -->
+</body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+	<!DOCTYPE html>
+	<html>
+	<head>
+		<title>formulaire</title>
+		<link rel="stylesheet" type="text/css" href="css/csslogin.css">
+		<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+		<script src="apps.js"></script>
+	</head>
+	<body>
+	<fieldset>
+		<form action="/transfer" method="post" enctype="multipart/form-data">
+			Localisation: <input type="text" name="localisation"><br><br>
+			nom proprio :      <input type="text" name="nomproprio"><br><br>
+
+			<input type="file" name = "image" accept=".jpg" required="file"><br><br>
+			<!-- prix de l'appartement : 	 <input type="text" name="prix de l'appartement"><br><br>
+			presentation des appartements : <br>	
+						 <textarea name="presentation" id="" cols="30" rows="10"></textarea><br><br>
+			telephone :  <input type="text" name="telephone"><br><br>
+			mail 	  :  <input type="text" name="mail"><br><br> -->
+			<input type="submit" value="Envoyer"><br>
+		</form>
+		
+		<!-- <div class="col-md-7 register-right">
+			<h2>Register Here</h2>
+			<div class="register-form">
+				<form action="/transfer" method="post" enctype="multipart/form-data">
+					<div class="form-group">
+						<input type="text" name ="localisation" class="form-control" placeholder="Localisation" required="localisation">
+					</div>
+
+					<div class="form-group">
+						<input type="text" name="nomproprio" class="form-control" placeholder="Nom du propriétaire" required="nomproprio">
+					</div>
+
+					<div class="form-group">
+						<input type="text" name="prix" class="form-control" placeholder="prix de l'appartement" required="prix">
+					</div>
+
+					<div class="form-group">
+						<textarea name="presentation" class="form-control" placeholder="presentation de l'appartement" required="presentation" cols="50" rows="30"></textarea>
+					</div>
+
+					<div class="form-group">
+						<input type="email" name="email" class="form-control" placeholder="Email" required="email">
+					</div>
+
+					<div class="form-group">
+						<input type="number" name ="telephone" class="form-control" placeholder="Telephone" required="telephone">
+					</div>
+
+					<input type="submit" class="btn btn-primary">Register</input><br>
+				</form>
+			</div>
+		</div> -->
+	</fieldset>
+	</body>
+	</html>
